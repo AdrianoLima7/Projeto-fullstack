@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Fina.Core.Requests.Transactions;
 
-internal class GetTransactionsByPeriodRequest : PagedRequest
+public class GetTransactionsByPeriodRequest : PagedRequest
 {
     public DateTime? StartDate { get; set; }
     public DateTime? EndDate { get; set; }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Fina.Core.Requests.Transactions;
 
-internal class UpdateTransactionRequest : Request
+public class UpdateTransactionRequest : Request
 {
     public long Id { get; set; }
 

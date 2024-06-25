@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Fina.Core.Responses;
 
-internal class PagedResponse<TData> : Response<TData>
+public class PagedResponse<TData> : Response<TData>
 {
     [JsonConstructor]
     public PagedResponse(

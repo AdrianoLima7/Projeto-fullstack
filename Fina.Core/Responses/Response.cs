@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Fina.Core.Responses;
 
-internal class Response<TData>
+public class Response<TData>
 {
     private int _code = Configuration.DefaultStatusCode;
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Fina.Core.Requests.Categories;
 
-internal class CreateCategoryRequest : Request
+public class CreateCategoryRequest : Request
 {
     [Required(ErrorMessage = "Título inválido")]
     [MaxLength(80, ErrorMessage = "O título deve conter até 80 caracteres")]

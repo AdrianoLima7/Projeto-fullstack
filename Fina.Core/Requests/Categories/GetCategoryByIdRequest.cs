@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Fina.Core.Requests.Categories;
 
-internal class GetCategoryByIdRequest : Request
+public class GetCategoryByIdRequest : Request
 {
     public long Id { get; set; }
 

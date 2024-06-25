@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Fina.Core.Requests.Transactions;
 
-internal class CreateTransactionRequest : Request
+public class CreateTransactionRequest : Request
 {
     [Required(ErrorMessage = "Título inválido")]
     public string Title { get; set; } = string.Empty;

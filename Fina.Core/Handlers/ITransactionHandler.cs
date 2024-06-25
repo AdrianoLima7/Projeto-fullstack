@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Fina.Core.Handlers;
 
-internal interface ITransactionHandler
+public interface ITransactionHandler
 {
     Task<Response<Transaction?>> CreateAsync(CreateTransactionRequest request);
     Task<Response<Transaction?>> UpdateAsync(UpdateTransactionRequest request);

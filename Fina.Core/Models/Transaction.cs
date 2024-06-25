@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Fina.Core.Models;
 
-internal class Transaction
+public class Transaction
 {
     public long Id { get; set; }
-    public string MyProperty { get; set; } = string.Empty;
+    public string Title { get; set; } = string.Empty;
 
     public DateTime CreatedAt { get; set; } = DateTime.Now;
     public DateTime? PaiOrReceivedAt { get; set; }
